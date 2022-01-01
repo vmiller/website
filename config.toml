@@ -1,0 +1,26 @@
+baseURL = 'http://www.vemiller.com/'
+languageCode = 'en-us'
+title = 'Nuts and Bolts'
+#theme = "ananke"
+theme = "hyde"
+
+[params]
+  text_color = ""
+  author = "Vaughn Miller"
+  favicon = "/static/favicon.png"
+  site_logo = ""
+  description = "Some things I've learned along the way..."
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  #background_color_class = "bg-black"
+  recent_posts_number = 2
+  layoutReverse = true
+
+[permalinks]
+	posts = '/:year/:month/:day/:title'
+
+[Menus]
+  main = [
+  	{Name = "Github", URL = "https://github.com/vmiller/"},
+  	{Name = "Twitter", URL = "https://twitter.com/Vaughn_E_Miller"},
+  	{Name = "LinkedIn", URL = "https://www.linkedin.com/in/vaughn-miller-a4799742/"}
+  	]
