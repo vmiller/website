@@ -1,7 +1,6 @@
 baseURL = 'http://www.vemiller.com/'
 languageCode = 'en-us'
 title = 'Nuts and Bolts'
-#theme = "ananke"
 theme = "hyde"
 
 [params]
